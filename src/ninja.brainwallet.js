@@ -22,6 +22,7 @@ ninja.wallets.brainwallet = {
 			if (key.length >= ninja.wallets.brainwallet.minPassphraseLength) {
 				var bytes = Crypto.SHA256(key, { asBytes: true });
 				var btcKey = new Bitcoin.ECKey(bytes);
+				btcKey.setCompressed(document.getElementById("bulkcompressed").checked);
 				var bitcoinAddress = btcKey.getBitcoinAddress();
 				var privWif = btcKey.getBitcoinWalletImportFormat();
 				document.getElementById("brainbtcaddress").innerHTML = bitcoinAddress;

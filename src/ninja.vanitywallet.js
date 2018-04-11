@@ -13,6 +13,7 @@ ninja.wallets.vanitywallet = {
 
 	generateKeyPair: function () {
 		var key = new Bitcoin.ECKey(false);
+		key.setCompressed(document.getElementById("bulkcompressed").checked);
 		var publicKey = key.getPubKeyHex();
 		var privateKey = key.getBitcoinHexFormat();
 		document.getElementById("vanitypubkey").innerHTML = publicKey;
