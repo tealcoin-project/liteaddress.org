@@ -1,6 +1,6 @@
 {
   "name": "tealcoin-address-generator",
-  "version": "2.9.8",
+  "version": "2.9.9",
   "description": "Open Source JavaScript Client-Side Tealcoin Wallet Generator",
   "devDependencies": {
 	"grunt": "~0.4.1",
