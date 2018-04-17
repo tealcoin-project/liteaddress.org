@@ -6544,6 +6544,7 @@ body, input, select { font-family: Ubuntu, monospace; font-size: 1.1em;}
 			<span><a href="?culture=zh-cn" id="culturezh-cn">简体中文</a></span> | 
             <span><a href="?culture=ru" id="cultureru">Русский</a></span>
 		</div>
+		<div id="use_network">Network: Mainnet, <a href='?testnet=true'>Click here to switch</a></div>
 		<h1>Tealcoin Address Generator</h1>
 		<div id="tagline">Open Source JavaScript Client-Side Tealcoin Wallet Generator</div>
 		<div id="seedpoolarea"><textarea rows="16" cols="62" id="seedpool"></textarea></div>
@@ -10512,6 +10513,7 @@ if (ninja.getQueryString()["testnet"] == "true" || ninja.getQueryString()["testn
 	document.getElementById("testnet").innerHTML = ninja.translator.get("testneteditionactivated");
 	document.getElementById("testnet").style.display = "block";
 	document.getElementById("detailwifprefix").innerHTML = "'8'";
+	document.getElementById("use_network").innerHTML = "Network: Testnet, <a href='?testnet=false'>Click here to switch</a>";
 	document.getElementById("detailcompwifprefix").innerHTML = "'b'";
 	Bitcoin.Address.networkVersion = 0x7F; // testnet
 	Bitcoin.ECKey.privateKeyPrefix = 0xe6; // testnet
