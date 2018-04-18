@@ -42,7 +42,7 @@ END USER NOTES:
 
 
 ## Notice of Copyrights and Licenses:
----------------------------------------
+
 The bitaddress.org project, software and embedded resources are
 copyright bitaddress.org.
 
@@ -55,6 +55,7 @@ throughout the document along with their licenses. Included JavaScript
 libraries are separated with HTML script tags.
 
 Summary of JavaScript functions with a redistributable license:
+
 JavaScript function		License
 -------------------		--------------
 Array.prototype.map		Public Domain
