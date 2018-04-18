@@ -1,4 +1,15 @@
-bitaddress.org
+## Standalone offline version
+
+Download `tealcoin-address-generator.html`
+
+Open the file in a browser by double clicking it.
+
+This can be compiled from source using the command `python compile.py`
+
+This will generate `tealcoin-address-generator.html`
+
+## bitaddress.org
+
 JavaScript Client-Side Bitcoin Wallet Generator
 
 Now Bitcoin addresses and their corresponding private key can be conveniently 
@@ -30,7 +41,7 @@ END USER NOTES:
  6) Art Wallet does not work properly in IE8 due to CSS limitations.
 
 
-Notice of Copyrights and Licenses:
+## Notice of Copyrights and Licenses:
 ---------------------------------------
 The bitaddress.org project, software and embedded resources are
 copyright bitaddress.org.

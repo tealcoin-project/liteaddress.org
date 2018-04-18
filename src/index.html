@@ -49,69 +49,28 @@
 	<title>Tealcoin Address Generator</title>
 	<meta charset="utf-8">
 
-	<script type="text/javascript">
-//array.map.js
-	</script>
-	<script type="text/javascript">
-//cryptojs.js	
-	</script>
-	<script type="text/javascript">
-//cryptojs.sha256.js	
-	</script>
-	<script type="text/javascript">
-//cryptojs.pbkdf2.js 
-	</script>
-	<script type="text/javascript">
-//cryptojs.hmac.js
-	</script>
-	<script type="text/javascript">
-//cryptojs.aes.js
-	</script>
-	<script type="text/javascript">
-//cryptojs.blockmodes.js
-	</script>
-	<script type="text/javascript">
-//cryptojs.ripemd160.js
-	</script>
-	<script type="text/javascript">
-//securerandom.js
-	</script>
-	<script type="text/javascript">
-//ellipticcurve.js
-	</script>
-	<script type="text/javascript">
-//secrets.js
-	</script>
-	<script type="text/javascript">
-//biginteger.js
-	</script>
-	<script type="text/javascript">
-//qrcode.js
-	</script>
-	<script type="text/javascript">
-//bitcoinjs-lib.js
-	</script>
-	<script type="text/javascript">
-//bitcoinjs-lib.base58.js
-	</script>
-	<script type="text/javascript">
-//bitcoinjs-lib.address.js
-	</script>
-	<script type="text/javascript">
-//bitcoinjs-lib.ecdsa.js
-	</script>
-	<script type="text/javascript">
-//bitcoinjs-lib.eckey.js
-	</script>
-	<script type="text/javascript">
-//bitcoinjs-lib.util.js
-	</script>
-	<script type="text/javascript">
-//crypto-scrypt.js
-	</script>
-	<style type="text/css">
-//main.css
-	</style>
+	<link rel="stylesheet" href="css/main.css">
+
+	<script src="js/array.map.js"></script>
+	<script src="js/cryptojs.js"></script>
+	<script src="js/cryptojs.sha256.js"></script>
+	<script src="js/cryptojs.pbkdf2.js"></script>
+	<script src="js/cryptojs.hmac.js"></script>
+	<script src="js/cryptojs.aes.js"></script>
+	<script src="js/cryptojs.blockmodes.js"></script>
+	<script src="js/cryptojs.ripemd160.js"></script>
+	<script src="js/securerandom.js"></script>
+	<script src="js/ellipticcurve.js"></script>
+	<script src="js/secrets.js"></script>
+	<script src="js/biginteger.js"></script>
+	<script src="js/qrcode.js"></script>
+	<script src="js/bitcoinjs-lib.js"></script>
+	<script src="js/bitcoinjs-lib.base58.js"></script>
+	<script src="js/bitcoinjs-lib.address.js"></script>
+	<script src="js/bitcoinjs-lib.ecdsa.js"></script>
+	<script src="js/bitcoinjs-lib.eckey.js"></script>
+	<script src="js/bitcoinjs-lib.util.js"></script>
+	<script src="js/crypto-scrypt.js"></script>
 </head>
 <body onclick="SecureRandom.seedTime();" onmousemove="ninja.seeder.seed(event);">
 	<div id="busyblock"></div>
@@ -414,12 +373,12 @@
 					<hr />
 					<div class="privqr">
 						<div class="item">
-							<span class="label"><span id="detaillabelprivwif">Private Key WIF<br />51 characters base58, starts with a</span> <span id="detailwifprefix">'5'</span></span>
+							<span class="label"><span id="detaillabelprivwif">Private Key WIF<br />51 characters base58, starts with a</span> <span id="detailwifprefix">'3'</span></span>
 							<div id="detailqrcodeprivate" class="qrcode_private"></div>
 							<span class="output" id="detailprivwif"></span>
 						</div>
 						<div class="item right">
-							<span class="label"><span id="detaillabelprivwifcomp">Private Key WIF Compressed<br />52 characters base58, starts with a</span> <span id="detailcompwifprefix">'T'</span></span>
+							<span class="label"><span id="detaillabelprivwifcomp">Private Key WIF Compressed<br />52 characters base58, starts with a</span> <span id="detailcompwifprefix">'B'</span></span>
 							<div id="detailqrcodeprivatecomp" class="qrcode_private"></div>
 							<span class="output" id="detailprivwifcomp"></span>
 						</div>
@@ -467,41 +426,17 @@
 		</div>
 	</div>
 
-	<script type="text/javascript">
-//ninja.key.js
-	</script>
-	<script type="text/javascript">
-//ninja.misc.js
-	</script>
-	<script type="text/javascript">
-//ninja.translator.js
-	</script>
-	<script type="text/javascript">
-//ninja.singlewallet.js
-	</script>
-	<script type="text/javascript">
-//ninja.paperwallet.js
-	</script>
-	<script type="text/javascript">
-//ninja.bulkwallet.js
-	</script>
-	<script type="text/javascript">
-//ninja.brainwallet.js
-	</script>
-	<script type="text/javascript">
-//ninja.vanitywallet.js
-	</script>
-	<script type="text/javascript">
-//ninja.detailwallet.js
-	</script>
-	<script type="text/javascript">
-//ninja.splitwallet.js
-	</script>
-	<script type="text/javascript">
-//ninja.unittests.js
-	</script>
-	<script type="text/javascript">
-//ninja.onload.js
-	</script>
+	<script src="js/ninja.key.js"></script>
+	<script src="js/ninja.misc.js"></script>
+	<script src="js/ninja.translator.js"></script>
+	<script src="js/ninja.singlewallet.js"></script>
+	<script src="js/ninja.paperwallet.js"></script>
+	<script src="js/ninja.bulkwallet.js"></script>
+	<script src="js/ninja.brainwallet.js"></script>
+	<script src="js/ninja.vanitywallet.js"></script>
+	<script src="js/ninja.detailwallet.js"></script>
+	<script src="js/ninja.splitwallet.js"></script>
+	<script src="js/ninja.unittests.js"></script>
+	<script src="js/ninja.onload.js"></script>
 </body>
 </html>
